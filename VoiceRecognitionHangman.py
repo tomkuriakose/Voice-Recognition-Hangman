@@ -93,7 +93,7 @@ def recognize_speech(file_path):
 
 word_to_guess = get_random_word()
 guessed_letters = []
-attempts = 6  # Number of incorrect attempts allowed
+attempts = 5  # incorrect attempts allowed
 
 while attempts > 0:
     print("Word: " + display_word(word_to_guess, guessed_letters))
